@@ -32,14 +32,27 @@ public class CharacterAudioManager : MonoBehaviour {
             IsRunning = true;
            // print("Running");
         }
+		else if (OverallSpeed < 0.004){
+			IsWalking = false;
+			IsRunning = false;
 
         
+		}
 	}
 
-    function  OnCollisionEnter () {
-
-        print("FS");
-    }
-    
+	void PlayFS () {
+		if (IsWalking = true){
+		print("Walk");
+    	}
+		else if (IsRunning = true ){
+		print ("Run");
+		}
+		else if (IsRunning == false & IsWalking == false ){
+			print ("NoSound");
+		}
+		else {
+				print ("NoSound");
+			}
+	}
 }
  
