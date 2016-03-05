@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioScriptingLearning.CSharp.Plugins", "AudioScriptingLearning.CSharp.Plugins.csproj", "{D9C002EA-29D5-0F2A-DF04-833E64730527}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioScriptingLearning.CSharp", "AudioScriptingLearning.CSharp.csproj", "{45F099DF-6CCF-934F-45B2-E031BE40CF1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioScriptingLearning.CSharp.Editor", "AudioScriptingLearning.CSharp.Editor.csproj", "{80667689-BB36-24B4-22D4-28B7601DA90A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9C002EA-29D5-0F2A-DF04-833E64730527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C002EA-29D5-0F2A-DF04-833E64730527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C002EA-29D5-0F2A-DF04-833E64730527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C002EA-29D5-0F2A-DF04-833E64730527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45F099DF-6CCF-934F-45B2-E031BE40CF1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F099DF-6CCF-934F-45B2-E031BE40CF1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F099DF-6CCF-934F-45B2-E031BE40CF1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F099DF-6CCF-934F-45B2-E031BE40CF1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80667689-BB36-24B4-22D4-28B7601DA90A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80667689-BB36-24B4-22D4-28B7601DA90A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80667689-BB36-24B4-22D4-28B7601DA90A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80667689-BB36-24B4-22D4-28B7601DA90A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
